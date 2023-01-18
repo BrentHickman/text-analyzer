@@ -3,7 +3,8 @@ window.addEventListener("load", function(){
   event.preventDefault();
   function collectInput(text){
     text = document.querySelector("input").value;
-    console.log(text);
+    let textArray = text.split(" ");
+    console.log(textArray);
   };
   collectInput();
   });

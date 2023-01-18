@@ -32,4 +32,10 @@ Expected Output: "text"
 <!-- Our third test. -->
 
 Test: "In will cut input string into an array of each input word."
-Code:
+Code:     
+    let textArray = text.split(" ");
+    console.log(textArray);
+
+<!-- input text = "This is a test array" -->
+
+Expected Output: ["This", "is", "a", "test", "array"]
